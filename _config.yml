@@ -1,0 +1,33 @@
+# Site settings
+title: Underdog developer
+email: d.selmanaj1984@gmail.com
+description: My blog about my humble opinions about the new web technologies
+url: "http://webconfs.me" # the base hostname & protocol for your site
+twitter_username: denminsk
+
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+
+#Default settings
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      author: Ozden Halavurt
+      layout: "post"
+      category: web technologies
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "page"
+
+
+
+
+
